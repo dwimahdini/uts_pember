@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SIPETA-Sistem Informasi Tugas Akhir</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="gender_array">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="kuota_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <!-- tambahkan item sesuai kebutuhan -->
+    </string-array>
+
+</resources>

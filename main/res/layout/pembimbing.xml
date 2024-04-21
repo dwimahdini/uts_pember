@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Tombol Tambah Dosen -->
+    <Button
+        android:id="@+id/button_add_dosen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <!-- HorizontalScrollView untuk Tabel -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_add_dosen">
+
+        <TableLayout
+            android:id="@+id/table_dosen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <!-- Header Tabel -->
+            <TableRow>
+                <TextView
+                    android:text="No"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="Nama Dosen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="NIDN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="Jenis Kelamin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="Keahlian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="Kuota"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+                <TextView
+                    android:text="Aksi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"/>
+            </TableRow>
+
+            <!-- Data Tabel -->
+            <!-- Baris data akan ditambahkan secara dinamis oleh kode Java -->
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Dosen"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextNIDM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIDN Dosen"
+        android:layout_below="@id/editTextNama"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNIDM"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerKuota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerGender"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextKeahlian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keahlihan Dosen"
+        android:layout_below="@id/spinnerKuota"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kembali"
+        android:layout_below="@id/editTextKeahlian"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simpan"
+        android:layout_below="@id/buttonSimpan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
