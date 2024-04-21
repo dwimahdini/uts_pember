@@ -79,9 +79,9 @@ public class PengujiFragment extends Fragment {
     // Method to populate the table with dummy data (for initial display)
     private void populateDummyData() {
         String[][] dummyData = {
-                {"1", "John Doe", "1234567890", "Male", "Computer Science", "10"},
-                {"2", "Jane Smith", "0987654321", "Female", "Mathematics", "8"},
-                {"3", "Alice Johnson", "5678901234", "Female", "Physics", "12"},
+                {"1", "Dosen1", "1234567890", "Male", "Computer Science", "10"},
+                {"2", "Dosen2", "0987654321", "Female", "Mathematics", "8"},
+                {"3", "Dosen3", "5678901234", "Female", "Physics", "12"},
                 // Add more dummy data as needed
         };
 
